@@ -7,6 +7,31 @@
     <title>Namaste React</title>
   </head>
   <body>
-    <h1>Namaste Everyone</h1>
+    <div id="root"></div>
+    <!-- <h1>Namaste Everyone!</h1> -->
+
+    <script>
+      const heading = document.createElement("h1");
+      heading.innerHTML = "Hello";
+      const root = document.getElementById("root");
+      root.appendChild(heading);
+    </script>
   </body>
 </html>
+
+<!-- //!Challenge 1 write h1 tag using javascript
+*currently we are writing this <h1>Namaste Everyone!</h1>
+? //Answer - 
+const heading= documeny.createElement("h1");
+heading.innerText="Hello";
+document.body.appendChild(heading);
+-->
+
+<!-- //! Suppose there is a div with id "root"
+
+  const heading=document.createElement("h1");
+  heading.innerHTML="Hello";
+ const root= document.getElementById("root");
+ root.appendChild(heading);
+
+-->
